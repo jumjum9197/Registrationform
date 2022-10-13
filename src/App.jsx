@@ -15,7 +15,7 @@ function App() {
   
    return (
     <Fragment>
-       {/* <Nav name='Logo' />  */}
+      
       <Container  as={"section"} fluid>
       <Row>
         <Col className="col-lg-7 col-md-7 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center">
