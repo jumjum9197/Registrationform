@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+section{
+
+  background-image: url(../src/assets/img/v1072-037-c-copy-min.jpg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.col-7-bg{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.card-width{
+  /* height: 550px !important; */
+  width: 550px;
+}
+.heighttext{
+  line-height: 2.1 !important;
+}
+.radius-30{
+  border-radius: 30px !important;
+}
+.input-bg{
+  background-color: #f2f2f2 !important;
+}
+.btn-bg{
+  background-color: #2cb7cc !important;
+}
+.btn-height{
+  line-height: 2.0 !important;
+}
+.btn-bg:hover{
+  background-color: #ea252e !important;
+}
+.text-font{
+  font-size: 60px;
+}
+.area-height{
+  line-height: 3.5 !important;
+}
+.btn-radius{
+  border-radius: 10px !important;
+}
+.logo-text{
+  color: #f2f2f2 !important;
+}
+/* .col-5-bg{
+  background-color: rgb(44, 183, 204) !important;
+  background: rgba(44, 183, 204, 0.5);
+} */
+.menu-w{
+  margin-left: 35rem;
+}
+section{
+  overflow: hidden;
+}
+
+nav{
+  overflow: hidden;
+}
+body{
+  overflow: hidden;
+}
