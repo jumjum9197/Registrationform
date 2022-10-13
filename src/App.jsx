@@ -22,7 +22,7 @@ function App() {
             <Card className="border radius-30 card-width px-4 py-5">
               <Card.Title className="ps-3"><h2 className="fw-bold pt-5 pb-3">Get started with a free quotation</h2></Card.Title>
               <Card.Body>
-                <form className="mb-5">
+                <form className="mb-5"> 
                     <div className="input-group-lg mb-3">
                       <Input label={'Name'} type={'text'} placeholder={'Enter your Name'} onChange={(name) =>{
                         setUserDetails({
