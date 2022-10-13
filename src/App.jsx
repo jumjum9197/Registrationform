@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import {Card, Col, Container,  Row} from "react-bootstrap";
 import './App.css';
 import Input from "./components/input";
-// import Nav from "./components/nav";
+
 
 function App() {
   
