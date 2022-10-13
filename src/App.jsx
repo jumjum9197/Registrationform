@@ -19,7 +19,7 @@ function App() {
       <Container  as={"section"} fluid>
       <Row>
         <Col className="col-lg-7 col-md-7 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center">
-            <Card className="border radius-30 card-width px-4 py-5">
+            <Card className="border radius-30 card-width px-4 ">
               <Card.Title className="ps-3"><h2 className="fw-bold pt-5 pb-3">Get started with a free quotation</h2></Card.Title>
               <Card.Body>
                 <form className="mb-5"> 
@@ -54,7 +54,7 @@ function App() {
 
        
         <Col className="col-lg-5 col-md-5 col-sm-12 col-xs-12 mt-5">
-        <Card className="py-5 px-5">
+        <Card className="">
           <Card.Title> <h3>User Details</h3> </Card.Title>
             <Card.Body>
             <div>
