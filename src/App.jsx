@@ -12,20 +12,42 @@ function App() {
       email:"",
       message:""
     });
+    
   
    return (
     <Fragment>
       
       <Container  as={"section"} fluid>
       <Row>
-        <Col className="col-lg-7 col-md-7 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center">
-            <Card className="border radius-30 card-width px-4 ">
+         
+    <Col lg={6} sm={12}  md={6} className=" d-flex justify-content-center ">
+      <Card className="mt-5 mb-5 w-75">
+          <Card.Title className="m-2"> <h3>User Details</h3> </Card.Title>
+            <Card.Body>
+            <div>
+              <p>Name: {userDetails.name}</p>
+              <p>Email: {userDetails.email}</p>
+            </div>
+
+            </Card.Body>
+         
+
+        </Card>
+    </Col>     
+
+  
+          
+     
+      
+       <Col lg={6} sm={12}  md={6} className="d-flex justify-content-center align-items-center">
+            <Card className="mt-5">
               <Card.Title className="ps-3"><h2 className="fw-bold pt-5 pb-3">Get started with a free quotation</h2></Card.Title>
               <Card.Body>
                 <form className="mb-5"> 
                     <div className="input-group-lg mb-3">
-                      <Input label={'Name'} type={'text'} placeholder={'Enter your Name'} onChange={(name) =>{
-                        setUserDetails({
+                      <Input label={'Name'} type={'text'} placeholder={'Enter your Name'} 
+                      onChange={(name) =>{setUserDetails
+                        ({
                           ...userDetails, name,
                         });
                       }}/>
@@ -52,23 +74,7 @@ function App() {
         </Col>
      
 
-       
-        <Col className="col-lg-5 col-md-5 col-sm-12 col-xs-12 mt-5">
-        <Card className="">
-          <Card.Title> <h3>User Details</h3> </Card.Title>
-            <Card.Body>
-            <div>
-              <p>Name: {userDetails.name}</p>
-              <p>Email: {userDetails.email}</p>
-            </div>
-
-            </Card.Body>
-         
-
-        </Card>
-          
-     
-        </Col>
+      
       </Row>
       </Container>
     </Fragment>
